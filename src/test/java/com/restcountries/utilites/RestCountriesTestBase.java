@@ -15,7 +15,7 @@ public class RestCountriesTestBase {
 
     }
 
-    public static ResponseSpecification userCheck(){
+    public static ResponseSpecification countryCheck(){
         return expect()
                 .statusCode(200)
                 .contentType(ContentType.JSON)

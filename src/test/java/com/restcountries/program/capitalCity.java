@@ -40,5 +40,11 @@ public class capitalCity {
         capitalCity result = new capitalCity();
         new StringBuilder().append(result.url).append("/capital").append(country).toString();
         System.out.println(result);
+
+        if (result == null){
+            System.out.println("Please enter a valid country.");
+        }
     }
+    //TODO
+    //Research more on connecting Scanner and API path
 }
