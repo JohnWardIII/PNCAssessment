@@ -1,0 +1,4 @@
+com\restcountries\tests\Test1.class
+com\restcountries\program\capitalCity.class
+com\restcountries\utilites\RestCountriesTestBase.class
+com\restcountries\utilites\ConfigurationReader.class
