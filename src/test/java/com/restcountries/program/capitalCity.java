@@ -38,7 +38,7 @@ public class capitalCity {
         System.out.println("Please enter the name or number of a country to receive the name of the capital city.");
         String country = scanner.nextLine();
         capitalCity result = new capitalCity();
-        new StringBuilder().append(result.url).append("/capital").append(country).toString();
+//        new StringBuilder().append(result.url).append("/capital").append(country).toString();
         System.out.println(result);
 
         if (result == null){
